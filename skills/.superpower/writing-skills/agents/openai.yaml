@@ -1,0 +1,5 @@
+interface:
+  display_name: "Writing Skills"
+  short_description: "Create and test skills with pressure scenarios"
+  default_prompt: "Use $writing-skills to create or update a skill and test it with sub-agent pressure scenarios."
+

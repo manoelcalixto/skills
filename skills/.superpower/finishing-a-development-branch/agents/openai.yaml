@@ -1,0 +1,5 @@
+interface:
+  display_name: "Finish a Development Branch"
+  short_description: "Verify tests and choose merge/PR/cleanup"
+  default_prompt: "Use $finishing-a-development-branch to verify tests and finish this branch with a merge, PR, or cleanup."
+

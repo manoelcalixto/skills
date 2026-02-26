@@ -1,0 +1,5 @@
+interface:
+  display_name: "Using Superpowers"
+  short_description: "Skill-first workflow for every conversation"
+  default_prompt: "Use $using-superpowers to select and apply relevant skills before responding."
+

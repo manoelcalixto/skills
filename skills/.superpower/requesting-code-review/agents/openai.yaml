@@ -1,0 +1,5 @@
+interface:
+  display_name: "Requesting Code Review"
+  short_description: "Dispatch a reviewer agent and act on feedback"
+  default_prompt: "Use $requesting-code-review to request a code review for my recent changes and summarize actionable issues."
+

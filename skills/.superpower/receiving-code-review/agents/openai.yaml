@@ -1,0 +1,5 @@
+interface:
+  display_name: "Receiving Code Review"
+  short_description: "Verify feedback technically before implementing"
+  default_prompt: "Use $receiving-code-review to triage and respond to these review comments one by one with verification."
+

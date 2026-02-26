@@ -1,0 +1,5 @@
+interface:
+  display_name: "Test-Driven Development"
+  short_description: "TDD: red-green-refactor discipline and rules"
+  default_prompt: "Use $test-driven-development to implement this change with a failing test first."
+

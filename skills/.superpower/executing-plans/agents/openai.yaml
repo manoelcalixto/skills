@@ -1,0 +1,5 @@
+interface:
+  display_name: "Executing Plans"
+  short_description: "Execute a plan in batches with checkpoints"
+  default_prompt: "Use $executing-plans to run this implementation plan task-by-task and report between batches."
+

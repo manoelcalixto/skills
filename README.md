@@ -13,6 +13,8 @@ Learn more:
 
 Skills in [`.system`](skills/.system/) are automatically installed in the latest version of Codex.
 
+Skills in [`.superpower`](skills/.superpower/) are workflow/process skills (e.g., planning, debugging discipline, review discipline). They follow the same skill directory conventions as curated skills but are meant to be installed intentionally as a set or by explicit path.
+
 To install [curated](skills/.curated/) or [experimental](skills/.experimental/) skills, you can use the `$skill-installer` inside Codex.
 
 Curated skills can be installed by name (defaults to `skills/.curated`):

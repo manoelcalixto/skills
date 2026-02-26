@@ -1,0 +1,5 @@
+interface:
+  display_name: "Using Git Worktrees"
+  short_description: "Create isolated worktrees safely and consistently"
+  default_prompt: "Use $using-git-worktrees to create a safe worktree for this feature and verify a clean baseline."
+
