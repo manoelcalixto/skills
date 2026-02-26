@@ -15,6 +15,8 @@ Skills in [`.system`](skills/.system/) are automatically installed in the latest
 
 Skills in [`.superpower`](skills/.superpower/) are workflow/process skills (e.g., planning, debugging discipline, review discipline). They follow the same skill directory conventions as curated skills but are meant to be installed intentionally as a set or by explicit path.
 
+Skills in [`.sf-skills`](skills/.sf-skills/) are Salesforce-focused domain skills (Apex, Flows, LWC, SOQL, Deploy, Agentforce, etc.) curated as a dedicated collection.
+
 To install [curated](skills/.curated/) or [experimental](skills/.experimental/) skills, you can use the `$skill-installer` inside Codex.
 
 Curated skills can be installed by name (defaults to `skills/.curated`):
