@@ -39,6 +39,35 @@ $skill-installer install https://github.com/openai/skills/tree/main/skills/.expe
 
 After installing a skill, restart Codex to pick up new skills.
 
+## Codex multi-agent setup
+
+This repository now includes a project-scoped Codex multi-agent configuration:
+
+- [`.codex/config.toml`](.codex/config.toml) enables `features.multi_agent` and adds custom roles without overriding built-in roles.
+
+Custom roles based on `/home/k3/git/sf-skills/agents`:
+
+- `sf-fde-strategist`
+- `sf-fde-engineer`
+- `sf-fde-experience-specialist`
+- `sf-fde-qa-engineer`
+- `sf-fde-release-engineer`
+- `sf-ps-technical-architect`
+- `sf-ps-solution-architect`
+
+Custom role based on `/home/k3/git/superpowers/agents`:
+
+- `superpowers-code-reviewer`
+
+Role-specific settings are stored in [`.codex/agents/`](.codex/agents/).
+
+Usage notes:
+
+1. Open Codex in this repository so project config is discovered.
+2. Mark the project as trusted so `.codex/config.toml` is applied.
+3. Restart Codex if the session was already active before these files were added.
+4. If your Codex build still requires it, enable Multi-agents via `/experimental` and restart.
+
 ## License
 
 The license of an individual skill can be found directly inside the skill's directory inside the `LICENSE.txt` file.

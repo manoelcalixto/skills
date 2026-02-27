@@ -1,0 +1,40 @@
+#:schema https://developers.openai.com/codex/config-schema.json
+
+[features]
+multi_agent = true
+
+[agents]
+max_threads = 8
+max_depth = 1
+
+[agents."sf-fde-strategist"]
+description = "Planning and delegation role for Salesforce Agentforce + platform delivery."
+config_file = "agents/sf-fde-strategist.toml"
+
+[agents."sf-fde-engineer"]
+description = "Hands-on Salesforce Agentforce implementation role (metadata, Apex, Agent Script)."
+config_file = "agents/sf-fde-engineer.toml"
+
+[agents."sf-fde-experience-specialist"]
+description = "Conversation design and UX role for Agentforce channels and LWC experiences."
+config_file = "agents/sf-fde-experience-specialist.toml"
+
+[agents."sf-fde-qa-engineer"]
+description = "Cross-cutting QA role for Apex tests, agent testing, observability, and debugging."
+config_file = "agents/sf-fde-qa-engineer.toml"
+
+[agents."sf-fde-release-engineer"]
+description = "Cross-cutting release role for metadata deployments and connected app setup."
+config_file = "agents/sf-fde-release-engineer.toml"
+
+[agents."sf-ps-technical-architect"]
+description = "Platform technical role for Apex, integrations, SOQL/data, and LWC implementation."
+config_file = "agents/sf-ps-technical-architect.toml"
+
+[agents."sf-ps-solution-architect"]
+description = "Platform solution role for metadata design, flows, permissions, and architecture artifacts."
+config_file = "agents/sf-ps-solution-architect.toml"
+
+[agents."superpowers-code-reviewer"]
+description = "Dedicated code-review role to validate plan alignment and code quality after major steps."
+config_file = "agents/superpowers-code-reviewer.toml"
